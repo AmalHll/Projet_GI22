@@ -10,5 +10,10 @@ package com.mycompany.gestionevenements;
  * @author Amal
  */
 public class Participant {
+    String nom,prenom;
+    Participant(String nom,String prenom){
+        this.nom=nom;
+        this.prenom=prenom;}
+    
     
 }
